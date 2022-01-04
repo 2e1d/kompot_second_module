@@ -10,6 +10,10 @@
 .link{
     text-decoration: none;
     color: #FFFFFF;
+    font: 400 15px "Cera Pro";
+}
+.link:visited{
+    color: #FFFFFF;
 }
 
 .email-text{
@@ -17,4 +21,10 @@
 }
 .phone{
     font: 500 20px "Cera Pro";
+}
+.title{
+    font: 400 18px "Cera Pro";
+}
+.nav_item_content{
+    font: 400 16px "Cera Pro";
 }
