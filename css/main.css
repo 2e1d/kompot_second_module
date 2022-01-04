@@ -17,7 +17,10 @@
     padding: 14px 59px 15px 0px;
 }
 .link{
-    padding: 0px 58px 0px 0px;
+    margin: 0px 58px 0px 0px;
+}
+.link:hover{
+    color: #A5A5A5;
 }
 .phone{
     padding: 0px 0px 0px 54px;
