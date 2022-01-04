@@ -1,1 +1,24 @@
-@import "common/typography.css"
+@import "common/typography.css";
+.wrapper{
+    height: 100vh;
+}
+.header{
+    background-color: #333333;
+    width: 100vw;
+    max-height: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.top_line{
+    padding: 14px 0px 15px 61px;
+}
+.info{
+    padding: 14px 59px 15px 0px;
+}
+.link{
+    padding: 0px 58px 0px 0px;
+}
+.phone{
+    padding: 0px 0px 0px 54px;
+}

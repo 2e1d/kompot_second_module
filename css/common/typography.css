@@ -2,3 +2,19 @@
     font-family: 'Cera Pro';
     src: url('CeraPro-Regular.eot');
 }
+
+.body{
+    font: 400 15px "Cera Pro";
+}
+
+.link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.email-text{
+    color: #FFFFFF;
+}
+.phone{
+    font: 500 20px "Cera Pro";
+}
