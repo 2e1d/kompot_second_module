@@ -28,3 +28,37 @@
 .nav_item_content{
     font: 400 16px "Cera Pro";
 }
+.product_type{
+    font: 500 20px "Cera Pro";
+    color: #FFFFFF;
+    z-index: 0;
+}
+.product_name{
+    font: 500 35px "Cera Pro";
+    color: #FFFFFF;
+    z-index: 0;
+}
+.product_price{
+    font: 500 34px "Cera Pro";
+    color: #FFFFFF;
+    z-index: 0;
+}
+.best_offer__span{
+    font: 500 28px "Cera Pro";
+    color: #333333;
+}
+.best_offer__button{
+    font: 400 18px "Cera Pro";
+}
+.item_name{
+    font: 500 16px "Cera Pro";
+    color: #333333;  
+}
+.item_article{
+    font: 400 14px "Cera Pro";
+    color: #188145;
+}
+.avilability{
+    font: 400 14px "Cera Pro";
+    color: #188145;
+}
