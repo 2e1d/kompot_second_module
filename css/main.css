@@ -57,7 +57,7 @@
 }
 .submenu{
     position: absolute;
-    margin-top: 29px;
+    margin-top: 19px;
     border: 1px solid #E0E0DD;
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
@@ -66,15 +66,20 @@
     max-width: 258px;
     max-height: 230px;
     background: #FFFFFF;
+    padding: 15px 14px 15px 18px;
     /* height: 100%; */
-    padding: 0px;
     width: 100%;
+}
+.arrowdown::before{
+    padding-left: 10px;
+    font-size: 12px;
+    content: "\e90f";
 }
 .nav_item_head{
     display: inline-block;
     position: relative;
     margin: 26px 0px 25px 0px;
-    padding: 0px 71px 0px 0px;
+    padding: 0px 61px 0px 0px;
 }
 .title:hover{
     color: #219653;
@@ -86,6 +91,8 @@
 }
 .nav_item_content{
     list-style: none;
+    line-height: 250%;
+    /* padding-bottom: 15px; */
 }
 .nav_item_head:hover .submenu{
     display: flex;

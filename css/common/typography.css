@@ -3,11 +3,31 @@
 }
 @font-face {
     font-family: "Cera Pro";
-    src: url('CeraPro-Regular.eot');
+    src: url("/font/CeraPro/CeraPro-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url("/font/CeraPro/CeraPro-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url("/font/CeraPro/CeraPro-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Cera Pro";
+    src: url("/font/CeraPro/CeraPro-Thin.ttf");
+    font-weight: 200;
+}
+@font-face{
+    font-family: "icomoon";
+    src: url("/font/font-icon.ttf");
 }
 
 .body{
-    font: 400 15px --default_font_family;
+    font-family: --default_font_family;
 }
 
 .link{
@@ -30,6 +50,7 @@
 }
 .nav_item_content{
     font: 400 16px --default_font_family;
+    font-style: normal;
 }
 .product_type{
     font: 500 20px --default_font_family;
@@ -97,4 +118,7 @@
     font: 400 14px --default_font_family;
     color: #BDBDBD;
     text-decoration: none;
+}
+.arrowdown{
+    font-family: "icomoon";
 }
