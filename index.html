@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
-    <link type="image/x-icon" rel="icon" href="public/favicon.ico">
+    <link type="image/x-icon" rel="icon" href="/public/favicon.ico">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class = "body">
@@ -24,12 +24,22 @@
             </div> 
         <div class="sticky-menu">
             <div class="burger">
-                <img class="burger_icon" src="/img/list.svg">
+                <input id="burger_toggle" type="checkbox">
+                <label class="burger_icon" for="burger_toggle"></label>
+                <ul class="menu_box">
+                    <div class="burger_products">
+                        <li>Комнатные ели</li>
+                        <li>Высотные ели</li>
+                        <li>Новогодний декор</li>
+                        <li>Гирлянды</li>
+                    </div>
+                    <div class="burger_social"></div>
+                    <div class="burger_banner"></div>
+                </ul>
             </div>
             <div class="logo_wrap">
                 <img class="logo" src="/img/logo.svg" alt="">               
             </div>
-            <!-- Не работает нормально submenu -->
             <div class="sticky-menu-nav">
                 <div class="nav_items">
                     <ul class="nav_items_list">
@@ -929,7 +939,7 @@
                         </div>
                     </div>
                     <div class="go_catalog_button_wrap">
-                        <a href="#"><button class = "go_catalog"><img class="gap" src="/img/spruceinbutton.svg">Перейти в каталог</button></a>  
+                        <a href="catalog.html"><button class = "go_catalog"><img class="gap" src="/img/spruceinbutton.svg">Перейти в каталог</button></a>  
                     </div> 
                 </div>
             </div>            

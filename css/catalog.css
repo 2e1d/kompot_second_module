@@ -1,0 +1,27 @@
+@import "common/typography.css";
+@import "common/header.css";
+@import "common/footer.css";
+@import "common/sticky-menu.css";
+@import "common/product_item.css";
+@import "common/dots_slider.css";
+@import "layout.css";
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.line{
+    margin: 130px 0px 71px 0px;
+}
+.head_line{
+    margin-bottom: 58px;
+}
+.active{
+    background-color: #27AE60;
+}
+.dots_slider{
+    margin-bottom: 187px;
+}
+.products{
+    border-bottom: 1px solid #E0E0DD;
+}
