@@ -1,6 +1,4 @@
-:root{
-    --default_font_family: "Cera Pro";
-}
+
 @font-face {
     font-family: "Cera Pro";
     src: url("/font/CeraPro/CeraPro-Light.ttf");
@@ -26,14 +24,18 @@
     src: url("/font/font-icon.ttf");
 }
 
+:root{
+    --default_font_family: "Cera Pro";
+}
+
 .body{
-    font-family: --default_font_family;
+    font-family: var(--default_font_family);
 }
 
 .link{
     text-decoration: none;
     color: #FFFFFF;
-    font: 400 15px --default_font_family;
+    font: 400 15px var(--default_font_family);
 }
 .link:visited{
     color: #FFFFFF;
@@ -43,79 +45,82 @@
     color: #FFFFFF;
 }
 .phone{
-    font: 500 20px --default_font_family;
+    font: 500 20px var(--default_font_family);
 }
 .title{
-    font: 400 18px --default_font_family;
+    font: 400 18px var(--default_font_family);
 }
 .nav_item_content{
-    font: 400 16px --default_font_family;
+    font: 400 16px var(--default_font_family);
     font-style: normal;
 }
+.burger_products_header{
+    font: 500 18px var(--default_font_family);
+}
 .product_type{
-    font: 500 20px --default_font_family;
+    font: 500 20px var(--default_font_family);
     color: #FFFFFF;
     z-index: 0;
 }
 .product_name{
-    font: 500 35px --default_font_family;
+    font: 500 35px var(--default_font_family);
     color: #FFFFFF;
     z-index: 0;
 }
 .product_price{
-    font: 500 34px --default_font_family;
+    font: 500 34px var(--default_font_family);
     color: #FFFFFF;
     z-index: 0;
 }
 .showcase_price{
-    font: 500 22px "Cera Pro";
+    font: 500 22px var(--default_font_family);
     color: #333333;
 }
 .section_title{
-    font: 500 28px --default_font_family;
+    font: 500 28px var(--default_font_family);
     color: #333333;
 }
 .best_offer__button{
-    font: 400 18px --default_font_family;
+    font: 400 18px var(--default_font_family);
 }
 .item_name{
-    font: 500 16px --default_font_family;
+    font: 500 16px var(--default_font_family);
     color: #333333;  
 }
 .item_article{
-    font: 400 14px --default_font_family;
+    font: 400 14px var(--default_font_family);
     color: #188145;
 }
 .avilability{
-    font: 400 14px --default_font_family;
+    font: 400 14px var(--default_font_family);
     color: #188145;
 }
 .go_catalog{
-    font: 500 18px --default_font_family;
+    font: 500 18px var(--default_font_family);
     color: #FFFFFF;
 }
 .inspiration_item_title{
-    font: 500 24px --default_font_family;
+    font: 500 24px var(--default_font_family);
 }
 .article{
-    font: 400 16px --default_font_family;
+    font: 400 16px var(--default_font_family);
     word-wrap: break-word;
     max-width: 87%;
 }
 .copyright{
-    font: 400 12px --default_font_family;
+    font: 400 12px var(--default_font_family);
     color: #9C9C9C;
 }
 .callback.write_us{
-    font: 500 16px --default_font_family;
+    font: 500 16px var(--default_font_family);
 }
 .name *{
-    font: 500 16px --default_font_family;
+    font: 500 16px var(--default_font_family);
     color: #FFFFFF;
     text-decoration: none;
 }
 .types *{
-    font: 400 14px --default_font_family;
+    font: 400 14px var(--default_font_family);
     color: #BDBDBD;
     text-decoration: none;
 }
