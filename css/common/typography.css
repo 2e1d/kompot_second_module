@@ -85,6 +85,8 @@
 }
 .item_name{
     font: 500 16px var(--default_font_family);
+    max-width: 75%;
+    text-align: center;
     color: #333333;  
 }
 .item_article{
@@ -111,7 +113,7 @@
     font: 400 12px var(--default_font_family);
     color: #9C9C9C;
 }
-.callback.write_us{
+.callback, .write_us{
     font: 500 16px var(--default_font_family);
 }
 .name *{

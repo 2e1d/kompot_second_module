@@ -5,6 +5,9 @@
     max-width: 360px;
     width: 100%;
     padding: 19px 19px 15px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .product_item_top{
     display: flex;
@@ -14,6 +17,9 @@
 .item_icons{
     display: flex;
     justify-content: space-between;
+}
+.product_item_buy{
+    cursor: pointer;
 }
 .product_item_bottom{
     padding: 30px 0px 0px 0px;
