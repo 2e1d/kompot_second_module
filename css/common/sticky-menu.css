@@ -94,6 +94,7 @@
     height: 30px;
     background: url("/img/search.svg");
     cursor: pointer;
+    transition: 0.5s ease-out;
 }
 .search_img{
     cursor: pointer;
@@ -106,6 +107,7 @@
     max-height: 32px;
     background: url("/img/scales.svg");
     cursor: pointer;
+    transition: 0.5s ease-out;
 }
 .search:hover{
     transition: 0.5s ease-in-out;
