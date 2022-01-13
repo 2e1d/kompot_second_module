@@ -17,9 +17,9 @@
 .item_icons_badge{
     position: relative;
 }
-.item_icons_badge:hover .item_icons_badge_desc{
+/* .item_icons_badge:hover .item_icons_badge_desc{
     display: block;
-}
+} */
 .item_icons_badge_desc{
     position: absolute;
     /* top: calc(100% + 14px); */
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* opacity: 0; */
+    opacity: 0;
     padding: 0px;
     display: block;
     pointer-events: none;

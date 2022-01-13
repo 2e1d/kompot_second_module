@@ -24,8 +24,8 @@
     display: block;
     position: fixed;
     visibility: hidden;
-    top: 0;
-    left: -100%;
+    top: -100%;
+    bottom: 0;
     width: 100%;
     max-height: 728px;
     height: 100%;
@@ -50,7 +50,7 @@
   }
   #burger_toggle:checked ~ .menu_box {
     visibility: visible;
-    left: 0;
+    top: 0;
   }
   .burger_icon > span,
   .burger_icon > span::before,

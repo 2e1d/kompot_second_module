@@ -101,6 +101,12 @@
     font: 500 18px var(--default_font_family);
     color: #FFFFFF;
 }
+.text{
+    font: 400 18px var(--default_font_family);
+}
+.tiny{
+    font: 400 12px var(--default_font_family);
+}
 .inspiration_item_title{
     font: 500 24px var(--default_font_family);
 }
@@ -125,6 +131,22 @@
     font: 400 14px var(--default_font_family);
     color: #BDBDBD;
     text-decoration: none;
+}
+.big_banner_desc_title{
+    font: 700 52px var(--default_font_family);
+    line-height: 65px;
+    color: #FADD9F;
+}
+.big_banner_desc_text{
+    font: 500 20px var(--default_font_family);
+    line-height: 65px;
+    color: #FADD9F;
+}
+.history_banner_article__span{
+    font: 500 20px var(--default_font_family);
+}
+.history_banner_article__p{
+    font: 400 16px var(--default_font_family);
 }
 .arrowdown{
     font-family: "icomoon";

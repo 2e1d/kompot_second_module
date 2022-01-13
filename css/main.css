@@ -5,6 +5,7 @@
 @import "common/product_item.css";
 @import "common/dots_slider.css";
 @import "common/burger.css";
+@import "common/big_banner.css";
 @import "layout.css";
 
 .banner-wrap{
@@ -101,14 +102,6 @@
 .gap-between{
     padding: 0px 0px 20px 0px;
 }
-.big_banner{
-    max-width: 1857px;
-    max-height: 198px;
-}
-.big_banner__img{
-    width: 100%;
-    height: 100%;
-}
 .small_banners{
     padding: 30px 0px;
     width: 100%;
@@ -137,11 +130,67 @@
 .history_banner{
     margin: 60px 0px;
     background: #EAF8F0;
-    height: 523px;
+    max-height: 523px;
+    padding: 65px 63px 20px;
 }
 .history_banner_wrapper{
+    display: flex;
     width: 100%;
-    height: 100%; 
+    height: 100%;
+}
+.medal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: calc(100%/3 - 40px);
+    margin-bottom: 58px;
+}
+.history_banner_left{
+    width: 50%;
+    display: flex;
+}
+.history_banner_right{
+    width: 50%;
+}
+.history_banner_article{
+    max-width: 508px;
+}
+.text{
+    max-width: 208px;
+}
+.history_banner_article__p{
+    max-width: 471px;
+}
+.santa{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.santa_face{
+    max-height: 197px;
+    max-width: 197px;
+}
+.santa_initials{
+    max-height: 156px;
+    max-width: 220px;
+}
+.gap-top{
+    margin-top: 40px !important;
+}
+.medals{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tiny{
+    margin-top: 11px;
+    line-height: 22px;
+    display: block;
+}
+.medal_img{
+    width: 100%;
+    height: 80px;
 }
 .inspiration_main{
     margin-top: 30px;
