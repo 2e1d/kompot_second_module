@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог</title>
+    <title>Crystal Trees</title>
     <link type="image/x-icon" rel="icon" href="public/favicon.ico">
     <link rel="stylesheet" href="css/catalog.css">
 </head>
@@ -18,13 +18,28 @@
                 <a class = "link" href="//google.com">Контакты</a>
             </div>
             <div class="info">
-                <span class="email-text">world@crystaltrees.ru</span>
-                <span class="email-text phone">8 (800) 55 55 57 24</span>
+                <a class="email-text" href="mailto:world@crystaltrees.ru">world@crystaltrees.ru</a>
+                <a class="email-text phone" href="tel:+780055555724">8 (800) 55 55 57 24</a>
             </div>
         </div> 
-        <div class="sticky-menu">
+    <div class="sticky-menu">
+        <div class="sticky-menu_left">
             <div class="burger">
-                <img class="burger_icon" src="/img/list.svg">
+                <input id="burger_toggle" type="checkbox">
+                <label class="burger_icon" for="burger_toggle">
+                    <span class="burger_icon__span"></span>
+                </label>
+                <ul class="menu_box">
+                    <div class="burger_products">
+                        <li class="burger_products_header">Комнатные ели</li>
+                        <li class="burger_products_header">Высотные ели</li>
+                        <li class="burger_products_header">Новогодний декор</li>
+                        <li class="burger_products_header">Гирлянды</li>
+                    </div>
+                    <div class="burger_social"></div>
+                    <div class="burger_banner"></div>
+
+                </ul>
             </div>
             <div class="logo_wrap">
                 <img class="logo" src="/img/logo.svg" alt="">               
@@ -47,13 +62,14 @@
                     </ul>
                 </div>
             </div>
-            <div class="sticky-menu-func">
-                <div class="search">
-                </div>
-                <div class="scales">
-                </div>
+        </div>
+        <div class="sticky-menu-func">
+            <div class="search">
+            </div>
+            <div class="scales">
             </div>
         </div>
+    </div>
         <div class="container">
             <div class="main_heading">
                 <div class="line">
@@ -71,7 +87,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -79,18 +99,20 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Шотландия</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
@@ -101,7 +123,7 @@
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -109,7 +131,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -117,29 +143,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -147,7 +175,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -155,29 +187,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -185,7 +219,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -193,29 +231,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -223,7 +263,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -231,29 +275,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -261,7 +307,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -269,29 +319,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -299,7 +351,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -307,29 +363,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -337,7 +395,11 @@
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -345,29 +407,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -375,12 +439,20 @@
                             </div>
                             <div class="big_banner">
                                 <img class="big_banner__img" src="/img/bigbanner.png">
+                                <div class="big_banner_desc">
+                                    <span class="big_banner_desc_title">Коллекция 2021</span>
+                                    <span class="big_banner_desc_text">Лучший подарок на Новый Год — это Ёлка!</span>
+                                </div>
                             </div>
                             <div class="products-list">
                                 <div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -388,37 +460,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -426,37 +503,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -464,37 +546,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -502,37 +589,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -540,37 +632,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -578,37 +675,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -616,37 +718,42 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="product_item">
+                                </div><div class="product_item">
                                     <div class="item_icons">
                                         <div class="item_icons_badge">
-                                            <img src="/img/new.svg">
+                                            <img src="/img/hit.svg">
+                                            <span class="item_icons_badge_desc">
+                                                <p class="item_icons_badge_desc__p">Хит</p>
+                                            </span>
+                                            <img src="/img/gift.svg">
                                         </div>
                                         <img class="showcasescale" src="/img/scalesshowcase.svg">
                                     </div>
@@ -654,29 +761,31 @@
                                         <div class="item_image gap-between">
                                             <img src="/img/shotlandija1.png">
                                         </div>
-                                        <div class="item_name gap-between">
-                                            <span>Искусственная Ель Шотландия</span>
-                                        </div>
-                                        <div class="item_article gap-between">
-                                            <span>артикул: KP3018</span>
-                                        </div>
-                                        <div class="item_rating">
-                                            <img class="rating" src="/img/rating.svg">
-                                            <a href="#"><img src="/img/review.svg"></a>
-                                        </div>
                                     </div>
                                     <div class="product_item_bottom">
+                                        <div class="product_item_desc">
+                                            <div class="item_name gap-between">
+                                                <span>Искусственная Ель Гарда заснеженная</span>
+                                            </div>
+                                            <div class="item_article gap-between">
+                                                <span>артикул: KP3018</span>
+                                            </div>
+                                            <div class="item_rating">
+                                                <img class="rating" src="/img/rating.svg">
+                                                <a href="#"><img src="/img/review.svg"></a>
+                                            </div>
+                                        </div>
                                         <div class="product_item_height">
                                             <a href="#"><img src="/img/size.svg"></a>
                                             <span class="avilability">в наличии</span>
                                         </div>
                                         <div class="product_item_price">
                                             <div class="product_item_price_wrap">
-                                                <span class="showcase_price">28 990 ₽</span>
+                                                <span class="showcase_price">43 990 ₽</span>
                                                 <div class="product_item_sale_price"></div>
                                             </div>
                                             <div class="product_item_buy">
-                                                <a><img src="/img/shoppingcartgreen.svg"></a>
+                                                <a class="product_item_buy_icon"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -691,7 +800,11 @@
                         <div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/new.svg">
+                                    <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
+                                    <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
@@ -699,37 +812,42 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/shotlandija1.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Шотландия</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">28 990 ₽</span>
+                                        <span class="showcase_price">43 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product_item">
+                        </div><div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/new.svg">
+                                    <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
+                                    <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
@@ -737,37 +855,42 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/shotlandija1.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Шотландия</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">28 990 ₽</span>
+                                        <span class="showcase_price">43 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product_item">
+                        </div><div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/new.svg">
+                                    <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
+                                    <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
@@ -775,37 +898,42 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/shotlandija1.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Шотландия</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">28 990 ₽</span>
+                                        <span class="showcase_price">43 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product_item">
+                        </div><div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/new.svg">
+                                    <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
+                                    <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
@@ -813,37 +941,42 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/shotlandija1.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Шотландия</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">28 990 ₽</span>
+                                        <span class="showcase_price">43 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="product_item">
+                        </div><div class="product_item">
                             <div class="item_icons">
                                 <div class="item_icons_badge">
-                                    <img src="/img/new.svg">
+                                    <img src="/img/hit.svg">
+                                    <span class="item_icons_badge_desc">
+                                        <p class="item_icons_badge_desc__p">Хит</p>
+                                    </span>
+                                    <img src="/img/gift.svg">
                                 </div>
                                 <img class="showcasescale" src="/img/scalesshowcase.svg">
                             </div>
@@ -851,29 +984,31 @@
                                 <div class="item_image gap-between">
                                     <img src="/img/shotlandija1.png">
                                 </div>
-                                <div class="item_name gap-between">
-                                    <span>Искусственная Ель Шотландия</span>
-                                </div>
-                                <div class="item_article gap-between">
-                                    <span>артикул: KP3018</span>
-                                </div>
-                                <div class="item_rating">
-                                    <img class="rating" src="/img/rating.svg">
-                                    <a href="#"><img src="/img/review.svg"></a>
-                                </div>
                             </div>
                             <div class="product_item_bottom">
+                                <div class="product_item_desc">
+                                    <div class="item_name gap-between">
+                                        <span>Искусственная Ель Гарда заснеженная</span>
+                                    </div>
+                                    <div class="item_article gap-between">
+                                        <span>артикул: KP3018</span>
+                                    </div>
+                                    <div class="item_rating">
+                                        <img class="rating" src="/img/rating.svg">
+                                        <a href="#"><img src="/img/review.svg"></a>
+                                    </div>
+                                </div>
                                 <div class="product_item_height">
                                     <a href="#"><img src="/img/size.svg"></a>
                                     <span class="avilability">в наличии</span>
                                 </div>
                                 <div class="product_item_price">
                                     <div class="product_item_price_wrap">
-                                        <span class="showcase_price">28 990 ₽</span>
+                                        <span class="showcase_price">43 990 ₽</span>
                                         <div class="product_item_sale_price"></div>
                                     </div>
                                     <div class="product_item_buy">
-                                        <a><img src="/img/shoppingcartgreen.svg"></a>
+                                        <a class="product_item_buy_icon"></a>
                                     </div>
                                 </div>
                             </div>
@@ -897,7 +1032,7 @@
                  <a class = "link" href="//google.com">Контакты</a>
                 </div>
                  <div class="footer_top_line_info">
-                     <span class="email-text phone">8 (800) 55 55 57 24</span>
+                    <a class="email-text phone" href="tel:+780055555724">8 (800) 55 55 57 24</a>
                  </div>
             </div>
             <div class="footer_main_line">

@@ -4,6 +4,8 @@
 @import "common/sticky-menu.css";
 @import "common/product_item.css";
 @import "common/dots_slider.css";
+@import "common/burger.css";
+@import "common/big_banner.css";
 @import "layout.css";
 
 .products-list{

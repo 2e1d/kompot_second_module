@@ -43,9 +43,11 @@
 
 .email-text{
     color: #FFFFFF;
+    text-decoration: none;
 }
 .phone{
     font: 500 20px var(--default_font_family);
+    text-decoration: none;
 }
 .title{
     font: 400 18px var(--default_font_family);
