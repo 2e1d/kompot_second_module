@@ -59,6 +59,37 @@
 .burger_products_header{
     font: 500 18px var(--default_font_family);
 }
+.burger_products_content{
+    font: 400 16px var(--default_font_family);
+    text-decoration: none;
+    color: #333333;
+}
+.burger_banner__p{
+    font: 500 28px var(--default_font_family);
+}
+.burger_banner__span{
+    font: 700 28px var(--default_font_family);
+}
+.adv::marker{
+    font-family: "icomoon";
+    content: "\e90B";
+    font-size: 10px;
+  }
+.icon-facebook{
+    font-family: "icomoon";
+    font-size: 19px;
+    text-decoration: none;
+}
+.icon-insta{
+    font-family: "icomoon";
+    font-size: 19px;
+    text-decoration: none;
+}
+.icon-youtube{
+    font-family: "icomoon";
+    font-size: 19px;
+    text-decoration: none;
+}
 .product_type{
     font: 500 20px var(--default_font_family);
     color: #FFFFFF;

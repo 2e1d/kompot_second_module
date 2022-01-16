@@ -12,12 +12,22 @@
     display: flex;
     flex-wrap: wrap;
 }
-.line{
-    margin: 130px 0px 71px 0px;
-}
 .head_line{
     margin-bottom: 58px;
 }
+.breadcrumbs{
+    margin: 130px 0px 71px 0px;
+    list-style: none;
+}
+.breadcrumbs .breadcrumb{
+    display: inline;
+}
+.breadcrumbs .breadcrumb +.breadcrumb:before {
+    padding: 8px;
+    color: black;
+    font-family: "icomoon";
+    content: "\e90f";
+  }
 .active{
     background-color: #27AE60;
 }

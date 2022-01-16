@@ -29,17 +29,88 @@
                 <label class="burger_icon" for="burger_toggle">
                     <span class="burger_icon__span"></span>
                 </label>
-                <ul class="menu_box">
-                    <div class="burger_products">
-                        <li class="burger_products_header">Комнатные ели</li>
-                        <li class="burger_products_header">Высотные ели</li>
-                        <li class="burger_products_header">Новогодний декор</li>
-                        <li class="burger_products_header">Гирлянды</li>
+                <div class="menu_box">
+                    <div class="menu_box_top">
+                        <ul>
+                            <div class="burger_products">
+                                <div class="burger_product">
+                                    <img class="burger_product_icon" src="/img/snowflake.svg">
+                                <li class="burger_products_header burger_header_gap">Комнатные ели
+                                    <ul class="burger_products_types">
+                                        <li><a class="burger_products_content" href="#">Литые</a></li>
+                                        <li><a class="burger_products_content" href="#">Комбинированные</a></li>
+                                        <li><a class="burger_products_content" href="#">Елки из ПВХ</a></li>
+                                        <li><a class="burger_products_content" href="#">Заснеженные, с освещением</a></li>
+                                        <li><a class="burger_products_content" href="#">Дизайнерские</a></li> 
+                                    </ul>
+                                </li>
+                                </div>
+                                <div class="burger_product">
+                                    <img class="burger_product_icon" src="/img/spruce.svg">
+                                    <li class="burger_products_header burger_header_gap">Высотные ели
+                                        <ul class="burger_products_types">
+                                            <li><a class="burger_products_content" href="#">Уличные ели</a></li>
+                                            <li><a class="burger_products_content" href="#">Интерьерные ели</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div class="burger_product">
+                                    <img class="burger_product_icon" src="/img/star.svg">
+                                    <li class="burger_products_header burger_header_gap">Новогодний декор
+                                        <ul class="burger_products_types">
+                                            <li><a class="burger_products_content" href="#">Хвойные венки</a></li>
+                                            <li><a class="burger_products_content" href="#">Хвойные гирлянды</a></li>
+                                            <li><a class="burger_products_content" href="#">Хвойные сваги</a></li>
+                                            <li><a class="burger_products_content" href="#">Елочные украшения</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div class="burger_product">
+                                    <img class="burger_product_icon" src="/img/lightbulb.svg">
+                                    <li class="burger_products_header">Гирлянды
+                                        <ul class="burger_products_types">
+                                            <li><a class="burger_products_content" href="#">Электрогирлянды</a></li>
+                                            <li><a class="burger_products_content" href="#">На батарейках</a></li>
+                                            <li><a class="burger_products_content" href="#">Занавесы, сетки</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                        <div class="burger_social_wrap">
+                            <div class="burger_social">
+                                <a class="circle_button button_gap" target="_blank" href="//facebook.com"><span class="icon-facebook"></span></a>
+                                <a class="circle_button button_gap" target="_blank" href="//instagram.com"><span class="icon-insta"></span></a>
+                                <a class="circle_button" target="_blank" href="//youtube.com"><span class="icon-youtube"></span></a>
+                            </div>
+                            <span class="crystal_trees">© 2021 CRYSTAL TREES,<br> Все права защищены</span>
+                        </div>
                     </div>
-                    <div class="burger_social"></div>
-                    <div class="burger_banner"></div>
-
-                </ul>
+                    <div class="burger_banner">
+                        <div class="burger_banner_bg">
+                            <img src="/img/burgermenubanner.svg">
+                            <div class="burger_banner_person">
+                                <img src="/img/burgerbannerperson.png">
+                            </div>
+                        </div>
+                        <div class="burger_banner_text">
+                            <div class="col">
+                                <p class="burger_banner__p">
+                                    Стань партнером, заработай от
+                                    <br>
+                                    <span class="burger_banner__span">700 000 рублей за 3 месяца!</span>
+                                </p>
+                                <a href="#" class="burger_banner_button">Подробнее</a>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li class="adv adv_top_gap">Мы работаем более 20 лет на рынке искусственных елей</li>
+                                    <li class="adv">Собственные склады и шоурум в Москве</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="logo_wrap">
                 <img class="logo" src="/img/logo.svg" alt="">               
@@ -72,8 +143,12 @@
     </div>
         <div class="container">
             <div class="main_heading">
-                <div class="line">
-                    Главная
+                <div class="breadcrumbs_wrap">
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumb"><a href="#">Главная</a></li>
+                        <li class="breadcrumb"><a href="#">Каталог</a></li>
+                        <li class="breadcrumb">Интерьерные ели</li>
+                    </ul>
                 </div>
                 <div class="section-catalog">
                     <div class="head_line">
@@ -1032,7 +1107,7 @@
                  <a class = "link" href="//google.com">Контакты</a>
                 </div>
                  <div class="footer_top_line_info">
-                    <a class="email-text phone" href="tel:+780055555724">8 (800) 55 55 57 24</a>
+                     <a class="email-text phone" href="tel:+780055555724">8 (800) 55 55 57 24</a>
                  </div>
             </div>
             <div class="footer_main_line">
@@ -1083,15 +1158,17 @@
                     <span>© 2021 CRYSTAL TREES, Все права защищены</span>
                 </div>
                 <div class="social">
-                    <div class="facebook"></div>
-                    <div class="instagram_icon"></div>
-                    <div class="youtube"></div>
+                    <!-- <div class="facebook"></div> -->
+                    <a class="facebook" href="//facebook.com"></a>
+                    <!-- <div class="instagram_icon"></div> -->
+                    <a class="instagram_icon" href="//instagram.com"></a>
+                    <!-- <div class="youtube"></div> -->
+                    <a class="youtube" href="//youtube.com"></a>
                 </div>
                 <div class="developer">
-                    <img src="/img/kompot.svg">
+                    <a href="#" target="_blank" ><img src="/img/kompot.svg"></a>
                 </div>
             </div>
          </div>
-    </div>
 </body>
 </html>
