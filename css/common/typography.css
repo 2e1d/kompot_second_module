@@ -184,6 +184,13 @@
 .arrowdown{
     font-family: "icomoon";
 }
+.side-menu *{
+    font: 400 14px var(--default_font_family);
+    letter-spacing: 5%;
+    text-transform: uppercase;
+    color: #101010;
+}
 .side-menu_header{
     font: 500 22px var(--default_font_family);
+    text-transform: none;
 }

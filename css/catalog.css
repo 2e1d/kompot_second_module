@@ -8,9 +8,21 @@
 @import "common/big_banner.css";
 @import "layout.css";
 
-.products-list{
+.products-list, .products-list_watched{
     display: flex;
     flex-wrap: wrap;
+}
+.product_item_wrap{
+    padding: 19px 19px 15px 19px;
+}
+.product_item{
+    padding: 0;
+}
+.products-list .product_item{
+    width: calc(100%/4 - 2px);
+}
+.products-list_watched .product_item{
+    width: calc(100%/5 - 2px);
 }
 .head_line{
     margin-bottom: 58px;
@@ -50,6 +62,21 @@
     border-top: 1px solid #E0E0DD;
     border-bottom: 1px solid #E0E0DD;
 }
+.spruce_type, .spruce_color, .spruce_binding, .spruce_addition{
+    border-bottom: 1px solid #E0E0DD;
+}
+.spruce_type{
+    margin-top: 35px;
+}
+.spruce_color{
+    margin-top: 41px;
+}
+.spruce_binding{
+    margin-top: 44px;
+}
+.spruce_addition{
+    margin-top: 44px;
+}
 .side-menu_height{
     padding-top: 44px;
     padding-bottom: 128px;
@@ -63,8 +90,29 @@
 }
 .products{
     border-bottom: 1px solid #E0E0DD;
+    padding-bottom: 188px;
     display: flex;
 }
 .side-menu_icon{
     padding-right: 22px;
+}
+.watched{
+    margin-top: 83px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 28px;
+}
+.best_offer_nav_button{
+    cursor: pointer;
+    max-width: 36px;
+    max-height: 36px;
+    height: 36px;
+    width: 36px;
+    background-color: #616161;
+    border: 0;
+    border-radius: 4px;
+    margin-left: 30px;
 }

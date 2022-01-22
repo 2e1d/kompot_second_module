@@ -4,10 +4,10 @@
     max-height: 560px;
     max-width: 360px;
     width: 100%;
-    padding: 19px 19px 15px 19px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 19px 19px 15px 19px;
 }
 .product_item_top{
     display: flex;
