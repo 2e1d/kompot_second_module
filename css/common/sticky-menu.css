@@ -117,3 +117,23 @@
     transition: 0.5s ease-in-out;
     background: url("/img/scaleshover.svg");
 }
+@media (max-width: 375px){
+    .sticky-menu-nav{
+        display: none;
+    }
+    .logo_wrap{
+        padding: 0px;
+    }
+    .sticky-menu_left{
+        flex-direction: row-reverse;
+    }
+    .sticky-menu-func{
+        flex-direction: row-reverse;
+    }
+    .logo{
+        width: 149px;
+    }
+    .scales{
+        margin: 25px 25px 0px 28px;
+    }
+}

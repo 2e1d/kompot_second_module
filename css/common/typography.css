@@ -194,3 +194,25 @@
     font: 500 22px var(--default_font_family);
     text-transform: none;
 }
+@media (max-width: 375px){
+    .section_title{
+        font-size: 20px;
+    }
+    .history_banner_article__span{
+        font-size: 18px;
+        max-width: 284px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .history_banner_article__p{
+        font-size: 14px;
+        max-width: none;
+    }
+    .best_offer__button{
+        font-size: 14px;
+    }
+    .link{
+        font-size: 14px;
+    }
+}

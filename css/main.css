@@ -209,7 +209,7 @@
 .green{
     background: #D2FFE5;
 }
-.inspiration_nav_button{
+.inspiration_nav_button, .adapt_inspiration_nav_button{
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -235,5 +235,77 @@
     display: flex;
     width: max-content;
     width: 100%;
+}
+.adapt_inspiration_nav_button{
+    display: none;
+}
+@media (max-width: 375px){
+    .inspiration_nav_button{
+        display: none;
+    }
+    .best_offer_main_wrapper{
+        overflow: visible;
+    }
+    .top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .history_banner_wrapper{
+        max-height: none;
+        flex-direction: column;
+    }
+    .medal_img{
+        width: 60px;
+        height: 60px;
+    }
+    .santa_face{
+        width: 80px;
+        height: 80px;
+    }
+    .santa_initials{
+        width: 129px;
+    }
+    .history_banner_right{
+        order: 1;
+        width: 100%;
+    }
+    .medal{
+        width: 107px;
+    }
+    .history_banner_left{
+        flex-direction: column;
+        order: 2;
+        width: 100%;
+    }
+    .gap-top{
+        margin: 0px;
+    }
+    .adapt{
+        visibility: visible;
+    }
+    .santa{
+        order: 2;
+    }
+    .history_banner{
+        flex-direction: column;
+        padding: 42px 11px 0px 20px;
+        height: 1147px;
+        max-height: none;
+    }
+    .section_title{
+        margin-bottom: 25px;
+    }
+    .arrows{
+        display: none;
+    }
+    .buttons{
+        flex-direction: row;
+
+    }
+    .best_offer__button{
+        margin: 0 11px;
+        width: 87px;
+        height: 29px;
+    }
 }
 

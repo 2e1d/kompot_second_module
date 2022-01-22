@@ -114,3 +114,11 @@
 .rating{
     padding: 0px 10px 0px 0px;
 }
+@media (max-width: 375px){
+    .product_item{
+        max-width: 360px;
+    }
+    .item_image{
+        width: 153px;
+    }
+}
