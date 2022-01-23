@@ -9,11 +9,29 @@
 }
 .big_banner__img{
     width: 100%;
-    height: 100%;
+    height: 200px;
+    background-image: url("/img/bigbanner.png");
 }
 .big_banner_desc{
     display: flex;
     flex-direction: column;
     text-align: center;
     position: absolute;
+}
+@media (max-width: 375px){
+    .big_banner{
+        max-height: none;
+        width: 100%;
+        margin-top: 57px;
+        margin-bottom: 40px;
+    }
+    .big_banner__img{
+        width: 376px;
+        height: 112px;
+        overflow: hidden;
+        background-image: url("/img/banneradapt.png");
+    }
+    .big_banner_desc{
+        visibility: collapse;
+    }   
 }

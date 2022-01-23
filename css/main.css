@@ -239,9 +239,19 @@
 .adapt_inspiration_nav_button{
     display: none;
 }
+.adapt{
+    visibility: hidden;
+}
 @media (max-width: 375px){
+    .dot, .dot_active{
+        height: 2px;
+    }
+    .adapt{
+        visibility: visible;
+        justify-content: center;
+    }
     .inspiration_nav_button{
-        display: none;
+        visibility: collapse;
     }
     .best_offer_main_wrapper{
         overflow: visible;
@@ -253,6 +263,24 @@
     .history_banner_wrapper{
         max-height: none;
         flex-direction: column;
+    }
+    .go_catalog{
+        width: 100%;
+    }
+    .inspiration_item{
+        flex-direction: column;
+        max-height: none;
+    }
+    .insp_logo{
+        height: 272px;
+    }
+    .inspiration_item_desc{
+        padding: 18px 40px 0px 20px;
+        height: 267px;
+    }
+    .inspiration_item a img{
+        width: 330px;
+        height: 272px;
     }
     .medal_img{
         width: 60px;
@@ -279,9 +307,6 @@
     }
     .gap-top{
         margin: 0px;
-    }
-    .adapt{
-        visibility: visible;
     }
     .santa{
         order: 2;

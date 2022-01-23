@@ -202,6 +202,21 @@
         font-size: 18px;
         max-width: 284px;
     }
+    .big_banner_desc_title{
+        font: 500 23px var(--default_font_family);
+        line-height: 28px;
+    }
+    .big_banner_desc_text{
+        font: 500 12px var(--default_font_family);
+        line-height: 15px;
+    }
+    .inspiration_item_title{
+        font: 500 18px var(--default_font_family);
+    }
+    .article{
+        font: 400 14px var(--default_font_family);
+        max-width: none;
+    }
     .text{
         font-size: 13px;
     }
