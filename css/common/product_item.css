@@ -17,6 +17,9 @@
 .item_icons_badge{
     position: relative;
 }
+.gap-between{
+    padding: 0px 0px 20px 0px;
+}
 /* .item_icons_badge:hover .item_icons_badge_desc{
     display: block;
 } */

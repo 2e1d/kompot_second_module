@@ -27,6 +27,7 @@
     border: 1px solid #C2C2C2;
     background-color: #fff;
     border-radius: 4px;
+    cursor: pointer;
 }
 .checkmark:after{
     left: 7px;
@@ -97,6 +98,7 @@ input:checked ~ .checkmark::after{
 .side-menu{
     max-width: 360px;
     width: 100%;
+    height: 80%;
     border: 1px solid #E0E0DD;
 }
 .side-menu_container{
@@ -111,6 +113,22 @@ input:checked ~ .checkmark::after{
 }
 .spruce_type, .spruce_color, .spruce_binding, .spruce_addition{
     border-bottom: 1px solid #E0E0DD;
+}
+.side-menu_footer{
+    margin-top: 30px;
+}
+.clearfilter{
+    width: 100%;
+    height: 44px;
+    font-size: 15px;
+    color: #333;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+    border: none;
+    cursor: pointer;
 }
 .spruce_type{
     margin-top: 35px;

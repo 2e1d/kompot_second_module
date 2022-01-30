@@ -70,6 +70,16 @@
 .burger_banner__span{
     font: 700 28px var(--default_font_family);
 }
+.spruce_type *, .spruce_color *, .spruce_binding *, .spruce_addition *{
+    font: 400 18px var(--default_font_family)!important;
+    color: #6F6F6F!important;
+    text-transform: none!important;
+}
+.clearfilter{
+    font: 400 15px var(--default_font_family);
+    line-height: 50px;
+    text-transform: none!important;
+}
 .adv::marker{
     font-family: "icomoon";
     content: "\e90B";
